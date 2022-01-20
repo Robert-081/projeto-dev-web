@@ -173,6 +173,15 @@ body {
         color: darkorange;
     }/*muda de cor quando passa o mouse em cima*/
 
+    .footer-box li a:hover {
+        color: darkorange;
+    }
+
+    .footer-box p:hover{
+        color: darkorange;
+        cursor: pointer;
+    }
+
     .footer-list li:after {
         clear:both;
         content: "";
@@ -183,10 +192,6 @@ body {
         width: 80%;
     }
 
-    .footer-list.footer-article-list span {
-        display: block;
-        float: none;
-    }/*elemento span sendo posicionado em bloco*/
 
     .fab {
         font-size: 30px;
@@ -208,3 +213,5 @@ body {
         font-weight: 600;
         margin-top: 40px;
     }
+
+  
